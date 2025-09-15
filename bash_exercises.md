@@ -12,15 +12,17 @@ Write a bash script using Vim editor that installs the latest java version and c
 # EXERCISE 3: Bash Script - User Processes
 Write a bash script using Vim editor that checks all the processes running for the current user (USER env var) and prints out the processes in console. Hint: use ps aux command and grep for the user.
 
-[Solution 3](./3_checker_user.sh)
+[Solution 3](./3_process_checker.sh)
 
 # EXERCISE 4: Bash Script - User Processes Sorted
 Extend the previous script to ask for a user input for sorting the processes output either by memory or CPU consumption, and print the sorted list.
 
+[Solution 4](./4_process_checker_sort.sh)
+
 # EXERCISE 5: Bash Script - Number of User Processes Sorted
 Extend the previous script to ask additionally for user input about how many processes to print. Hint: use head program to limit the number of outputs.
 
-Context: We have a ready NodeJS application that needs to run on a server. The app is already configured to read in environment variables.
+[Solution 5](./5_process_checker_count.sh)
 
 # EXERCISE 6: Bash Script - Start Node App
 Write a bash script with following logic:
