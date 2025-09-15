@@ -12,6 +12,8 @@ Write a bash script using Vim editor that installs the latest java version and c
 # EXERCISE 3: Bash Script - User Processes
 Write a bash script using Vim editor that checks all the processes running for the current user (USER env var) and prints out the processes in console. Hint: use ps aux command and grep for the user.
 
+[Solution 3](./3_checker_user.sh)
+
 # EXERCISE 4: Bash Script - User Processes Sorted
 Extend the previous script to ask for a user input for sorting the processes output either by memory or CPU consumption, and print the sorted list.
 
