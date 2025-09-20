@@ -19,7 +19,7 @@ install_nodejs() {
     if command -v apt &> /dev/null; then
         # Ubuntu/Debian
         curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-        sudo apt-get install -y nodejs npm
+        sudo apt-get install -y nodejs 
     else
         echo "Unsupported Linux distribution. Please install Node.js manually."
         exit 1
