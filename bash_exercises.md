@@ -45,6 +45,8 @@ Write a bash script with following logic:
 # EXERCISE 7: Bash Script - Node App Check Status
 Extend the script to check after running the application that the application has successfully started and prints out the application’s running process and the port where it’s listening.
 
+[Solution 7](./7_check_status_node_js.sh)
+
 # EXERCISE 8: Bash Script - Node App with Log Directory
 Extend the script to accept a parameter input log_directory: a directory where application will write logs.
 
