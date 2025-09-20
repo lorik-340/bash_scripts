@@ -40,6 +40,8 @@ Write a bash script with following logic:
 - If any of the variables is not set, the node app will print error message that env vars is not set and exit
 - It will give you a warning about LOG_DIR variable not set. You can ignore it for now.
 
+[Solution 6](./6_install_and_setup_node_js.sh)
+
 # EXERCISE 7: Bash Script - Node App Check Status
 Extend the script to check after running the application that the application has successfully started and prints out the application’s running process and the port where it’s listening.
 
