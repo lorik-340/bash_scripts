@@ -57,5 +57,7 @@ The script will check whether the parameter value is a directory name that doesn
 - Check the app.log file in the provided LOG_DIR directory.
 - This is what the output of running the application must look like: node-app-output.png 58
 
+[Solution 8](./8_log_directory.sh)
+
 # EXERCISE 9: Bash Script - Node App with Service user
 You’ve been running the application with your user. But we need to adjust that and create own service user: myapp for the application to run. So extend the script to create the user and then run the application with the service user.
